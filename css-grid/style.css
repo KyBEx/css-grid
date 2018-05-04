@@ -1,0 +1,524 @@
+@font-face {
+    font-family: verdemoderna;
+    src: url(./fonts/verdemoderna.woff);
+}
+
+@font-face {
+    font-family: librebaskerville;
+    src: url(http://fonts.gstatic.com/s/librebaskerville/v5/QHIOz1iKF3bIEzRdDFaf5fbsUggLxuOzHNuXcSFlTaY.woff2);
+}
+
+@font-face {
+    font-family: juliussansone;
+    src: url(http://fonts.gstatic.com/s/juliussansone/v6/iU65JP9acQHPDLkdalCF7pbhOpL-vLTkIjCTuVYsuO0.woff2);
+}
+
+
+.box {
+    height: 100%;
+    width: 100%;
+    background-color: grey;
+
+}
+
+.box3 {
+    background-color: white;
+}
+
+body {
+    margin: 0px;
+}
+
+.nested {
+    display: grid;
+    grid-template-columns: 2fr 1fr
+}
+
+.row1 {
+    grid-column-start: 1;
+    grid-column-end: 3;
+    height: 300px;
+    background-image: url(http://www.csszengarden.com/214/contours.png), url(http://www.csszengarden.com/214/noise.png), url(http://www.csszengarden.com/214/gridlines.png), url(http://www.csszengarden.com/214/huntington.jpg);
+    background-position: 0 0, 0 0, -5px -25px, 0 35%;
+    background-size: auto,auto,auto,cover;
+    background-attachment: fixed, fixed, fixed, fixed;
+
+}
+
+.box1, .box2 {
+    background-color: transparent;
+}
+
+.box2, .box4, .box6, .box8 {
+    width: 100%;
+
+}
+
+#container {
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    margin: none;
+}
+
+.box-border {
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    width: 100%;
+}
+
+.box1 {
+    width: 100%;
+}
+
+#circle {
+    position: relative;
+    height: 125px;
+    width: 125px;
+    transform: translateY(70%);
+    display: inline-block;
+}
+
+.header{
+    color: white;
+    position: relative;
+    display: inline-block;
+    margin-left: 30px;
+    transform: translateY(50%);
+}
+
+#head1{
+    font-family: juliussansone;
+    font-size: 50px;
+    text-align: left;
+    margin-bottom: 15px;
+
+}
+
+#head2{
+    text-align: left;
+    margin-top: 0px;
+    font-family: librebaskerville;
+    color: #A1B3B1;
+}
+
+.border-box-2{
+    margin: auto;
+    width: 100%;
+    transform: translateY(130%);
+}
+#viewall{
+    position: relative;
+    display: block;
+    height: 70px;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: rgba(255,255,255, .1);
+    border: none;
+    font-family: juliussansone;
+    z-index: 5;
+    color: rgba(255,255,255, 1);
+    font-weight: 600;
+    font-size: 20px;
+    text-align: center;
+    vertical-align: middle;
+    line-height: 70px;
+    width:75%;
+
+
+}
+
+#viewall:hover {
+    background: rgba(255,255,255, .3);
+    transition: all .5s linear 0s;
+}
+
+#viewall>p {
+    z-index: 5;
+    color: rgba(255,255,255, 1);
+    font-weight: 600;
+    font-size: 20px;
+    margin: 0px;
+}
+
+.body-wrapper{
+    margin-top: 50px;
+    margin-left: 70px;
+    margin-right: 70px;
+    margin-bottom: 50px;
+}
+
+
+.hbody {
+    font-family: juliussansone;
+
+}
+
+.body {
+    font-family: librebaskerville sans-serif;
+    font-size: 20px;
+    line-height: 150%;
+}
+
+.box4 {
+    background-color: #E1EAE5;
+}
+
+.box4 li , .box6 li {
+    list-style: none;
+    margin-left: 80px;
+    margin-bottom: 40px;
+    width: 240px;
+    padding-bottom: 20px;
+    border-bottom: solid #c0cac3 1px;
+}
+
+.box4 li:first-child, .box6 li:first-child {
+    margin-top: 40px;
+}
+
+.box6 li {
+    border-bottom: dotted grey 1px;
+}
+
+ul {
+    padding: 0px;
+    margin: 0px;
+}
+
+
+
+.option-header {
+    font-family: juliussansone, sans-serif;
+    font-size: 1em;
+    display: block;
+    margin-bottom: 5px;
+    color: #607476;
+}
+
+.by {
+    margin-right: 5px;
+    color: #c0cac3;
+    font-style: italic;
+}
+
+.author {
+    color: #616857;
+}
+
+.option-header:hover, .author:hover {
+    color: darkblue;
+    cursor: pointer;
+
+}
+
+.box5, .box6{
+    background-color: rgba(138,188,159,0.5);
+    background-image: url(http://www.csszengarden.com/214/contours-opaque.png), url(http://www.csszengarden.com/214/gridlines-opaque.png), url(http://www.csszengarden.com/214/bamboo.png);
+    background-attachment: scroll, scroll, fixed;
+}
+
+.box6{
+    background-color: rgba(109,154,131, .6);
+}
+
+.box7 {
+    background-color: white;
+}
+
+.box8 {
+    background-color: #E1EAE5;
+}
+
+.box9 {
+    grid-column-start: 1;
+    grid-column-end: 3;
+    background-image: url(http://www.csszengarden.com/214/contours.png), url(http://www.csszengarden.com/214/noise.png), url(http://www.csszengarden.com/214/gridlines.png), url(http://www.csszengarden.com/214/huntington.jpg);
+    background-size: auto, auto, auto, cover;
+    height: 300px;
+}
+
+.box10 {
+    grid-column-start: 1;
+    grid-column-end: 3;
+    font-family: verdemoderna;
+    text-align: center;
+    background-color: #143A3E;
+    color: #8A9D9F;
+    height: 200px;
+    font-size: 75px;
+    line-height: 200px;
+}
+
+.box10 li {
+    list-style: none;
+    display: inline-block;
+    margin-right: 5%;
+}
+
+.box10 li:last-child {
+    margin-right: 0px;
+}
+
+#footer-container {
+    text-align: center;
+    font-size: 40px;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
+#footer-text {
+    transform:translateY(50%);
+}
+@media screen and (max-width: 1133px) {
+
+    #container {
+        display: grid;
+        grid-template-columns: 100%
+    }
+
+    .row1 {
+        grid-column-start: 1;
+        grid-column-end: 2;
+        height: 250px;
+    }
+
+    .nested {
+        display: grid;
+        grid-template-columns: 100%;
+        grid-template-rows: 1fr 1fr;
+        grid-row-start: 1;
+        grid-row-end: 2;
+    }
+
+    .box1{
+        grid-row-start: 1;
+        grid-row-end: 2;
+    }
+
+    .box2 {
+        grid-row-start: 2;
+        grid-row-end: 3;
+    }
+
+    .border-box-2 {
+    margin: auto;
+    width: 100%;
+    position: relative;
+    transform: translateY(57%);
+    bottom: 0px;
+    background-color: rgba(255,255,255, .1);
+    }
+
+    #viewall {
+        font-size: 15px;
+        background-color: transparent;
+    }
+
+    #circle {
+    position: relative;
+    height: 80px;
+    width: 80px;
+    transform: translateY(0%);
+    display: inline-block;
+    }
+
+    .header {
+        color: white;
+        position: relative;
+        display: inline-block;
+        margin-left: 30px;
+        transform: translateY(15%);
+    }
+
+    #head1 {
+        font-family: juliussansone;
+        font-size: 40px;
+        text-align: left;
+        margin-bottom: 15px;
+    }
+
+
+
+    #head2 {
+        text-align: center;
+        margin-top: 0px;
+        font-family: librebaskerville;
+        color: #A1B3B1;
+        font-size: 15px;
+    }
+
+    .box4 {
+        grid-row-start: 8;
+        grid-row-end: 9;
+    }
+
+    .box6 {
+        grid-row-start: 10;
+        grid-row-end: 11;
+    }
+
+    .box8 {
+        visibility: hidden;
+    }
+
+    ul {
+        font-size: 0em;
+    }
+    .box4 li, .box6 li {
+        display: inline-block;
+        width: 46%;
+        margin-left: 0px;
+        padding-left: 40px;
+        font-size: 15px;
+        text-align: center;
+    }
+
+    .box9 {
+        grid-column-start: 1;
+        grid-column-end: 2;
+    }
+
+    .box10 {
+        grid-column-start: 1;
+        grid-column-end: 2;
+    }
+
+}
+
+@media screen and (max-width: 999px) {
+    .box4 li , .box6 li{
+        display: inline-block;
+        width: 45%;
+        margin-left: 0px;
+        padding-left: 40px;
+        font-size: 15px;
+        text-align: center;
+    }
+
+    #footer-text {
+        transform:translateY(25%);
+    }
+}
+
+
+
+@media screen and (max-width: 799px) {
+    .box4 li , .box6 li{
+        display: inline-block;
+        width: 43%;
+        margin-left: 0px;
+        padding-left: 40px;
+        font-size: 15px;
+        text-align: center;
+    }
+}
+
+@media screen and (max-width: 751px) {
+    #footer-container {
+        font-size: 40px;
+    }
+
+}
+
+@media screen and (max-width: 588px) {
+    #footer-text {
+        transform:translateY(15%);
+    }
+    #footer-container {
+        font-size: 30px;
+    }
+}
+
+@media screen and (max-width: 666px) {
+    .box4 li, .box6 li {
+        display: inline-block;
+        width: 42%;
+        margin-left: 0px;
+        padding-left: 40px;
+        font-size: 15px;
+        text-align: center;
+    }
+
+@media screen and (max-width: 600px) {
+    .box10 {
+        font-size: 60px;
+    }
+}
+
+@media screen and (max-width: 499px) {
+    .box4 li , .box6 li{
+        display: inline-block;
+        width: 41%;
+        margin-left: 0px;
+        padding-left: 40px;
+        font-size: 15px;
+        text-align: center;
+    }
+}
+
+@media screen and (max-width: 485px){
+    .border-box-2 {
+    margin: auto;
+    width: 100%;
+    position: relative;
+    height: 50px;
+    transform: translateY(31%);
+    bottom: 0px;
+    background-color: rgba(255,255,255, .1);
+    }
+
+    #viewall {
+        font-size: 10px;
+        background-color: transparent;
+        line-height: 50px;
+    }
+
+    #circle {
+    position: relative;
+    height: 80px;
+    width: 80px;
+    transform: translateY(15%);
+    display: inline-block;
+    }
+
+    .header {
+        color: white;
+        position: relative;
+        display: block;
+        margin-left: 30px;
+        transform: translateY(15%);
+    }
+
+    #head1 {
+        font-family: juliussansone;
+        font-size: 25px;
+        text-align: center;
+        margin-bottom: 15px;
+    }
+
+
+
+    #head2 {
+        text-align: center;
+        margin-top: 0px;
+        font-family: librebaskerville;
+        color: #A1B3B1;
+        font-size: 15px;
+    }
+}
+
+@media screen and (max-width: 445px) {
+    .box4 li , .box6 li{
+        display: inline-block;
+        width: 45%;
+        margin-left: 0px;
+        padding-left: 20px;
+        font-size: 15px;
+        text-align: center;
+    }
+
+    .box10 {
+        font-size: 40px;
+    }
+}
